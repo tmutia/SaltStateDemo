@@ -1,3 +1,3 @@
 '*':
   - htop.init
-
+  - atop.init
