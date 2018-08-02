@@ -1,2 +1,2 @@
 '*':
-- htop
+- htop.init
