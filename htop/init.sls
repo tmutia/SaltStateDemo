@@ -1,4 +1,4 @@
 install_htop:
-	pkg.installed:
-		- pkgs:
-			-htop
+pkg.installed:
+- pkgs:
+-htop
