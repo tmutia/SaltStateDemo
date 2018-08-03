@@ -8,11 +8,8 @@ install_web:
       - iftop
       - ntp
       - nginx
-	  
+
 index_html:
   file.managed:
     - name: /var/www/html/index.html
-	- user: nginx
-	- group: nginx
-	- mode: 644
-	- source: salt://web/templates
+    - source: salt://web/templates
