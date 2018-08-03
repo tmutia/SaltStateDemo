@@ -1,4 +1,4 @@
-install_web_services:
+install_web:
   pkg.installed:
     - pkgs:
       - htop
@@ -15,4 +15,4 @@ index_html:
 	- user: nginx
 	- group: nginx
 	- mode: 644
-	- source: salt://webServices/templates
+	- source: salt://web/templates
