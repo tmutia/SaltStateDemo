@@ -12,4 +12,4 @@ install_web:
 index_html:
   file.managed:
     - name: /var/www/html/index.html
-    - source: salt://web/templates
+    - source: salt://web/templates/index.html
