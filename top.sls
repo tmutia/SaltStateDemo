@@ -1,3 +1,2 @@
 '*':
-  - htop.init
-  - atop.init
+  - web_services
